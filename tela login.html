@@ -1,1 +1,71 @@
-d
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <!-- Ícone da aba / app -->
+  <link rel="icon" type="image/png" href="../imagens-projeto/login.png">
+  <link rel="shortcut icon" href="../imagens-projeto/login.png" sizes="256x256" type="image/png">
+  
+  <!-- Estilo da tela de login no css -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;      
+      height: 100vh;
+      margin: 0;
+     background: linear-gradient(135deg, #ff9a9e, #a18cd1);
+    }
+    
+    
+    div {
+  background: rgba(255, 255, 255, 0.25); /* Transparente */
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+
+  /* Efeito vidro */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+    
+    
+  </style>
+</head>
+
+<!-- corpo da tela de login -->
+
+<body>
+  <form>
+      <div>
+      <center>
+   <center><legend>Cadastro</legend></center>
+   
+    
+        
+      <label for="nome">Nome</label><br>
+      <input type="text" id="nome" size="30" maxlength="30" required><br><br>
+    
+    
+      <label for="email">Email</label><br>
+      <input type="email" id="email" size="30" required><br><br>
+    
+      <label for="senha">Senha</label><br>
+      <input type="password" id="senha" size="30" required><br><br>
+    
+    
+      <input type="submit" value="Enviar">
+      
+      </center>
+    </div>
+    </center>
+  </form>
+</body>
+</html>
